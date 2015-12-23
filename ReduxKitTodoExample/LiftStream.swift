@@ -1,15 +1,15 @@
 //
 //  LiftStream.swift
-//  ReduxTodoExample
+//  ReduxKitTodoExample
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
-import Redux
 import Bond
+import ReduxKit
 
-func liftStream<Item>(subscribe: Subscriber -> ReduxDisposable, source: State -> [Item]) -> ObservableArray<Item> {
+func liftStream<Item>(subscribe: Subscriber -> ReduxDisposable, source: AppState -> [Item]) -> ObservableArray<Item> {
 
     let stream = ObservableArray<Item>()
 

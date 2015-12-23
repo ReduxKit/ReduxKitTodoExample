@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  ReduxTodoExample
+//  ReduxKitTodoExample
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
 import UIKit
-import Redux
+import ReduxKit
 import Bond
 
 @UIApplicationMain
@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = baseColor
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
 
-        let store = applyMiddleware([loggingMiddleware])(createStore)(reducer, nil)
+        let store = applyMiddleware([loggingMiddleware])(createStore)(applicationReducer, nil)
 
         let todoViewModel = TodoViewModel(
             todos: liftStream(store.subscribe) { $0.todos },

@@ -1,14 +1,14 @@
 //
 //  LoggingMiddleware.swift
-//  ReduxTodoExample
+//  ReduxKitTodoExample
 //
 //  Created by Karl Bowden on 20/12/2015.
-//  Copyright © 2015 SwiftRedux. All rights reserved.
+//  Copyright © 2015 ReduxKit. All rights reserved.
 //
 
-import Redux
+import ReduxKit
 
-func loggingMiddleware<State>(store: Redux.Store<State>) -> DispatchTransformer {
+func loggingMiddleware<State>(store: Store<State>) -> DispatchTransformer {
     return { next in
         { action in
             print(action)

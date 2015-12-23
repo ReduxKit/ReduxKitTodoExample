@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7304BEDB1C2652A700538814"
-               BuildableName = "ReduxTodoExample.app"
-               BlueprintName = "ReduxTodoExample"
-               ReferencedContainer = "container:ReduxTodoExample.xcodeproj">
+               BuildableName = "ReduxKitTodoExample.app"
+               BlueprintName = "ReduxKitTodoExample"
+               ReferencedContainer = "container:ReduxKitTodoExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7304BEEF1C2652A700538814"
-               BuildableName = "ReduxTodoExampleTests.xctest"
-               BlueprintName = "ReduxTodoExampleTests"
-               ReferencedContainer = "container:ReduxTodoExample.xcodeproj">
+               BuildableName = "ReduxKitTodoExampleTests.xctest"
+               BlueprintName = "ReduxKitTodoExampleTests"
+               ReferencedContainer = "container:ReduxKitTodoExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7304BEFA1C2652A700538814"
-               BuildableName = "ReduxTodoExampleUITests.xctest"
-               BlueprintName = "ReduxTodoExampleUITests"
-               ReferencedContainer = "container:ReduxTodoExample.xcodeproj">
+               BuildableName = "ReduxKitTodoExampleUITests.xctest"
+               BlueprintName = "ReduxKitTodoExampleUITests"
+               ReferencedContainer = "container:ReduxKitTodoExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BEDB1C2652A700538814"
-            BuildableName = "ReduxTodoExample.app"
-            BlueprintName = "ReduxTodoExample"
-            ReferencedContainer = "container:ReduxTodoExample.xcodeproj">
+            BuildableName = "ReduxKitTodoExample.app"
+            BlueprintName = "ReduxKitTodoExample"
+            ReferencedContainer = "container:ReduxKitTodoExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BEDB1C2652A700538814"
-            BuildableName = "ReduxTodoExample.app"
-            BlueprintName = "ReduxTodoExample"
-            ReferencedContainer = "container:ReduxTodoExample.xcodeproj">
+            BuildableName = "ReduxKitTodoExample.app"
+            BlueprintName = "ReduxKitTodoExample"
+            ReferencedContainer = "container:ReduxKitTodoExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7304BEDB1C2652A700538814"
-            BuildableName = "ReduxTodoExample.app"
-            BlueprintName = "ReduxTodoExample"
-            ReferencedContainer = "container:ReduxTodoExample.xcodeproj">
+            BuildableName = "ReduxKitTodoExample.app"
+            BlueprintName = "ReduxKitTodoExample"
+            ReferencedContainer = "container:ReduxKitTodoExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
